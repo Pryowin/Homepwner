@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD08D1431F14536700CDD226 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD08D1421F14536700CDD226 /* Item.swift */; };
+		FD08D1451F14578000CDD226 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD08D1441F14578000CDD226 /* ItemStore.swift */; };
 		FD42862B1F132DDB0065166A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42862A1F132DDB0065166A /* AppDelegate.swift */; };
-		FD42862D1F132DDB0065166A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42862C1F132DDB0065166A /* ViewController.swift */; };
 		FD4286301F132DDB0065166A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD42862E1F132DDB0065166A /* Main.storyboard */; };
 		FD4286321F132DDB0065166A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4286311F132DDB0065166A /* Assets.xcassets */; };
 		FD4286351F132DDB0065166A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4286331F132DDB0065166A /* LaunchScreen.storyboard */; };
 		FD4286401F132DDB0065166A /* HomepwnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42863F1F132DDB0065166A /* HomepwnerTests.swift */; };
 		FD42864B1F132DDB0065166A /* HomepwnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42864A1F132DDB0065166A /* HomepwnerUITests.swift */; };
+		FD4286591F13CA940065166A /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4286581F13CA940065166A /* ItemsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD08D1421F14536700CDD226 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FD08D1441F14578000CDD226 /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 		FD4286271F132DDB0065166A /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD42862A1F132DDB0065166A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD42862C1F132DDB0065166A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FD42862F1F132DDB0065166A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD4286311F132DDB0065166A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD4286341F132DDB0065166A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		FD4286461F132DDB0065166A /* HomepwnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomepwnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD42864A1F132DDB0065166A /* HomepwnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepwnerUITests.swift; sourceTree = "<group>"; };
 		FD42864C1F132DDB0065166A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD4286581F13CA940065166A /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		FD4286291F132DDB0065166A /* Homepwner */ = {
 			isa = PBXGroup;
 			children = (
+				FD08D1441F14578000CDD226 /* ItemStore.swift */,
+				FD4286581F13CA940065166A /* ItemsViewController.swift */,
+				FD08D1421F14536700CDD226 /* Item.swift */,
 				FD42862A1F132DDB0065166A /* AppDelegate.swift */,
-				FD42862C1F132DDB0065166A /* ViewController.swift */,
 				FD42862E1F132DDB0065166A /* Main.storyboard */,
 				FD4286311F132DDB0065166A /* Assets.xcassets */,
 				FD4286331F132DDB0065166A /* LaunchScreen.storyboard */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD42862D1F132DDB0065166A /* ViewController.swift in Sources */,
+				FD4286591F13CA940065166A /* ItemsViewController.swift in Sources */,
+				FD08D1431F14536700CDD226 /* Item.swift in Sources */,
+				FD08D1451F14578000CDD226 /* ItemStore.swift in Sources */,
 				FD42862B1F132DDB0065166A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +513,7 @@
 				FD4286511F132DDB0065166A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD4286521F132DDB0065166A /* Build configuration list for PBXNativeTarget "HomepwnerTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				FD4286541F132DDB0065166A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD4286551F132DDB0065166A /* Build configuration list for PBXNativeTarget "HomepwnerUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				FD4286571F132DDB0065166A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
