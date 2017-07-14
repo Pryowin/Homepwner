@@ -16,6 +16,7 @@
 		FD4286401F132DDB0065166A /* HomepwnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42863F1F132DDB0065166A /* HomepwnerTests.swift */; };
 		FD42864B1F132DDB0065166A /* HomepwnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42864A1F132DDB0065166A /* HomepwnerUITests.swift */; };
 		FD4286591F13CA940065166A /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4286581F13CA940065166A /* ItemsViewController.swift */; };
+		FD639D381F1804EA00B6D408 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD639D371F1804EA00B6D408 /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		FD42864A1F132DDB0065166A /* HomepwnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepwnerUITests.swift; sourceTree = "<group>"; };
 		FD42864C1F132DDB0065166A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD4286581F13CA940065166A /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		FD639D371F1804EA00B6D408 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				FD08D1421F14536700CDD226 /* Item.swift */,
 				FD42862A1F132DDB0065166A /* AppDelegate.swift */,
 				FD42862E1F132DDB0065166A /* Main.storyboard */,
+				FD639D371F1804EA00B6D408 /* ItemCell.swift */,
 				FD4286311F132DDB0065166A /* Assets.xcassets */,
 				FD4286331F132DDB0065166A /* LaunchScreen.storyboard */,
 				FD4286361F132DDB0065166A /* Info.plist */,
@@ -269,6 +272,7 @@
 				FD08D1431F14536700CDD226 /* Item.swift in Sources */,
 				FD08D1451F14578000CDD226 /* ItemStore.swift in Sources */,
 				FD42862B1F132DDB0065166A /* AppDelegate.swift in Sources */,
+				FD639D381F1804EA00B6D408 /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
