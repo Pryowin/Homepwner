@@ -18,6 +18,7 @@
 		FD4286591F13CA940065166A /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4286581F13CA940065166A /* ItemsViewController.swift */; };
 		FD639D381F1804EA00B6D408 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD639D371F1804EA00B6D408 /* ItemCell.swift */; };
 		FD639D3A1F186CF500B6D408 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD639D391F186CF500B6D408 /* DetailViewController.swift */; };
+		FD639D3C1F1D932400B6D408 /* BorderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD639D3B1F1D932400B6D408 /* BorderTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		FD4286581F13CA940065166A /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 		FD639D371F1804EA00B6D408 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		FD639D391F186CF500B6D408 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FD639D3B1F1D932400B6D408 /* BorderTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				FD4286311F132DDB0065166A /* Assets.xcassets */,
 				FD4286331F132DDB0065166A /* LaunchScreen.storyboard */,
 				FD4286361F132DDB0065166A /* Info.plist */,
+				FD639D3B1F1D932400B6D408 /* BorderTextField.swift */,
 			);
 			path = Homepwner;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			files = (
 				FD4286591F13CA940065166A /* ItemsViewController.swift in Sources */,
 				FD08D1431F14536700CDD226 /* Item.swift in Sources */,
+				FD639D3C1F1D932400B6D408 /* BorderTextField.swift in Sources */,
 				FD08D1451F14578000CDD226 /* ItemStore.swift in Sources */,
 				FD639D3A1F186CF500B6D408 /* DetailViewController.swift in Sources */,
 				FD42862B1F132DDB0065166A /* AppDelegate.swift in Sources */,
