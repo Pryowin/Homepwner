@@ -11,6 +11,8 @@ import UIKit
 class ItemsViewController: UITableViewController {
     
     var itemStore: ItemStore!
+    var imageStore: ImageStore!
+    
     
     @IBAction func addNewItem(_ sender: UIBarButtonItem) {
         let newItem = itemStore.createItem()
@@ -61,6 +63,7 @@ class ItemsViewController: UITableViewController {
             let deleteAction = UIAlertAction(title: "Delete", style: .destructive, handler:
                 { (action) -> Void in
                     self.itemStore.removeItem(itemToDelete)
+                    self.imageStore.deleteImage(forKey: itemToDelete.itemKey)
                     self.tableView.deleteRows(at: [indexPath], with: .automatic)
             })
             ac.addAction(cancelAction)
@@ -79,6 +82,7 @@ class ItemsViewController: UITableViewController {
                 let item = itemStore.allItems[row]
                 let detailVC = segue.destination as! DetailViewController
                 detailVC.item = item
+                detailVC.imageStore = imageStore
             }
         default:
             preconditionFailure("Unexpected Segue indentifier")
