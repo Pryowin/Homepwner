@@ -70,4 +70,16 @@ class DetailViewController: UIViewController, UITextFieldDelegate {
         textField.resignFirstResponder()
         return true
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        switch segue.identifier {
+        case "editDate"?:
+                let dateVC = segue.destination as! DateCreatedController
+                dateVC.item = item
+        default:
+            preconditionFailure("Unexpected Segue indentifier")
+        }
+    }
+    
 }
+
+

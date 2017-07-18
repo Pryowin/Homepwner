@@ -19,6 +19,7 @@
 		FD639D381F1804EA00B6D408 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD639D371F1804EA00B6D408 /* ItemCell.swift */; };
 		FD639D3A1F186CF500B6D408 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD639D391F186CF500B6D408 /* DetailViewController.swift */; };
 		FD639D3C1F1D932400B6D408 /* BorderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD639D3B1F1D932400B6D408 /* BorderTextField.swift */; };
+		FD639D3E1F1D990700B6D408 /* DateCreatedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD639D3D1F1D990700B6D408 /* DateCreatedController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		FD639D371F1804EA00B6D408 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		FD639D391F186CF500B6D408 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FD639D3B1F1D932400B6D408 /* BorderTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderTextField.swift; sourceTree = "<group>"; };
+		FD639D3D1F1D990700B6D408 /* DateCreatedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateCreatedController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +110,9 @@
 			isa = PBXGroup;
 			children = (
 				FD42862A1F132DDB0065166A /* AppDelegate.swift */,
-				FD639D391F186CF500B6D408 /* DetailViewController.swift */,
 				FD4286581F13CA940065166A /* ItemsViewController.swift */,
+				FD639D391F186CF500B6D408 /* DetailViewController.swift */,
+				FD639D3D1F1D990700B6D408 /* DateCreatedController.swift */,
 				FD42862E1F132DDB0065166A /* Main.storyboard */,
 				FD08D1421F14536700CDD226 /* Item.swift */,
 				FD08D1441F14578000CDD226 /* ItemStore.swift */,
@@ -274,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD639D3E1F1D990700B6D408 /* DateCreatedController.swift in Sources */,
 				FD4286591F13CA940065166A /* ItemsViewController.swift in Sources */,
 				FD08D1431F14536700CDD226 /* Item.swift in Sources */,
 				FD639D3C1F1D932400B6D408 /* BorderTextField.swift in Sources */,

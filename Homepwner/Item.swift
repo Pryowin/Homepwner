@@ -12,14 +12,16 @@ class Item: NSObject {
     var name: String
     var valueInDollars: Int
     var serialNumber: String?
-    let dateCreated: Date
+    var dateCreated: Date
     
     init(name: String, serialNumber: String?, valueInDollars: Int) {
         self.name = name
         self.valueInDollars = valueInDollars
         self.serialNumber = serialNumber
         self.dateCreated = Date()
-        
+//        let dateFmt = ISO8601DateFormatter()
+//        self.dateCreated = dateFmt.date(from: "1963-11-22T10:44:00+0000")!
+//        
         super.init()
     }
     
