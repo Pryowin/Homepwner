@@ -8,13 +8,29 @@
 
 import UIKit
 
-class DetailViewController: UIViewController, UITextFieldDelegate {
+class DetailViewController: UIViewController,
+                            UITextFieldDelegate,
+                            UINavigationControllerDelegate,
+                            UIImagePickerControllerDelegate {
     
     @IBOutlet var dateLablel: UILabel!
     @IBOutlet var nameField: UITextField!
     @IBOutlet var serialNumberField: UITextField!
     @IBOutlet var valueField: UITextField!
-   
+    @IBOutlet var imageView: UIImageView!
+    
+    @IBAction func takePicture(_ sender: Any) {
+        let imagePicker = UIImagePickerController()
+        if UIImagePickerController.isSourceTypeAvailable(.camera) {
+            imagePicker.sourceType = .camera
+        } else {
+            imagePicker.sourceType = .photoLibrary
+        }
+        imagePicker.delegate = self
+        
+        present(imagePicker, animated: true, completion: nil)
+        
+    }
     
     @IBAction func backgroundTapped(_ sender: UITapGestureRecognizer) {
         view.endEditing(true)
@@ -78,6 +94,11 @@ class DetailViewController: UIViewController, UITextFieldDelegate {
         default:
             preconditionFailure("Unexpected Segue indentifier")
         }
+    }
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        let image = info[UIImagePickerControllerOriginalImage] as! UIImage
+        imageView.image = image
+        dismiss(animated: true, completion: nil)
     }
     
 }
